@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Polityka prywatności prywatnej konfiguracji Rclone i Home Assistant.">
+  <title>Polityka prywatności — Rclone HA Backup</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; color: #202938; background: #f4f6fa; }
+    body { margin: 0; padding: 3rem 1rem; }
+    main { max-width: 780px; margin: auto; padding: 2.25rem; background: white; border-radius: 16px; box-shadow: 0 8px 32px #17203312; }
+    h1 { line-height: 1.2; }
+    h2 { margin-top: 1.8rem; font-size: 1.2rem; }
+    p, li { line-height: 1.7; }
+    a { color: #1359b8; }
+    .date { color: #596579; font-size: .95rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <p><a href="/">← Strona główna</a></p>
+    <h1>Polityka prywatności</h1>
+    <p class="date">Ostatnia aktualizacja: 4 listopada 2026 r.</p>
+
+    <h2>Do czego służy ta konfiguracja</h2>
+    <p>To prywatna konfiguracja OAuth używana przez Rclone w Home Assistant do przesyłania plików wybranych przeze mnie, w tym kopii i zdjęć z Home Assistant, na moje konto Google Drive. Nie jest to usługa dostępna publicznie dla innych użytkowników.</p>
+
+    <h2>Jakie dane są przetwarzane i w jakim celu</h2>
+    <p>W zakresie uprawnień przyznanych Google podczas autoryzacji Rclone może uzyskiwać dostęp do plików i ich metadanych na Google Drive. Używa tego dostępu do operacji na plikach, które sam skonfigurowałem, takich jak przesyłanie, wyświetlanie lub zarządzanie plikami. Dane nie są używane do reklam ani profilowania.</p>
+
+    <h2>Przesyłanie, przechowywanie i udostępnianie</h2>
+    <p>Rclone działa w moim systemie Home Assistant i komunikuje się z usługą Google Drive przez jej API. Ta witryna nie otrzymuje plików, tokenów OAuth ani danych z Home Assistant. Pliki są przechowywane na moim Google Drive zgodnie z moimi ustawieniami. Dane nie są przekazywane innym odbiorcom przez tę konfigurację; Google przetwarza je w ramach świadczenia Google Drive, zgodnie z własnymi warunkami i polityką prywatności.</p>
+    <p>Tokeny OAuth są przechowywane w pliku konfiguracyjnym Rclone na moim systemie Home Assistant. Dostęp do tego systemu i zabezpieczenie jego konfiguracji kontroluję samodzielnie.</p>
+
+    <h2>Strona internetowa</h2>
+    <p>Strona zawiera wyłącznie informacje o tej prywatnej konfiguracji i odnośnik do niniejszej polityki. Nie ma formularzy, logowania ani dodanych narzędzi analitycznych. Usługodawca hostingu może przetwarzać standardowe dane techniczne związane z dostarczeniem strony, zgodnie z własną polityką prywatności.</p>
+
+    <h2>Usunięcie dostępu lub danych</h2>
+    <p>Dostęp Rclone do Google można cofnąć w ustawieniach bezpieczeństwa konta Google, w sekcji połączonych aplikacji. Pliki można usuwać bezpośrednio z Google Drive. Po cofnięciu uprawnień Rclone nie będzie mógł wykonywać dalszych operacji wymagających tego dostępu.</p>
+  </main>
+</body>
+</html>
